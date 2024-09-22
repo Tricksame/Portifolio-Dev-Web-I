@@ -1,0 +1,269 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+body{
+  height: 100vh;
+  background-color: #0f0f0f;
+} 
+
+span{
+  color: #a27aba;
+}
+
+.flex{
+  display: flex;
+}
+
+.interface{
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+
+
+header{
+  padding: 40px 4%;
+}
+
+header .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .nome a{
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+header nav ul li a{
+  color: #ada7a7;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header nav ul li a:hover{
+  color: white;
+  text-decoration: underline;
+  background-color: #5e5555;
+  border-radius: 10px;
+  padding: 10px;
+  transform: scale(1.05);
+  transition: .3s;
+}
+
+header nav ul{
+  list-style-type: none;;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px;
+}
+
+section.topo-site{
+  padding: 40px 4%;
+
+}
+
+section.topo-site .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.topo-site .topo-site-txt h1{
+  color: white;
+  font-size: 40px;
+}
+
+.topo-site .topo-site-txt h3{
+  color: white;
+  margin: 30px 0;
+
+}
+
+.topo-site-img img{
+  max-width:300px;
+  max-height: 550px;
+  width: auto;
+  height: auto;
+}
+
+section.sobre{
+  padding: 40px 4%;
+}
+
+section.sobre .flex{
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre .sobre-img img{
+  max-width:300px;
+  max-height: 550px;
+  width: auto;
+  height: auto;
+}
+
+.sobre .sobre-txt{
+  color: white;
+}
+
+.sobre .sobre-txt h2{
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+
+.sobre .sobre-txt h2 span{
+  color: #a27aba;
+  display: block;
+}
+
+.sobre .sobre-txt p{
+  margin: 20px 0;
+  text-align: justify;
+}
+
+section.m-projetos{
+  padding: 40px 4%;
+}
+
+section.m-projetos .flex{
+  display: flex;
+  gap: 60px;
+}
+
+.m-projetos .projeto h2{
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.m-projetos .projeto h2 span{
+  display: block;
+}
+
+.m-projetos .img-projeto img{
+  max-width:250px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
+.m-projetos .projeto h2{
+  color: white;
+}
+
+.m-projetos .projeto h3{
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.m-projetos .projeto p{
+  color: white;
+  text-align: justify;
+}
+
+section.m-projetos2{
+  padding: 40px 4%;
+}
+
+section.m-projetos2 .flex{
+  display: flex;
+  gap: 60px;
+}
+
+.m-projetos2 .img-projeto img{
+  max-width:250px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
+.m-projetos2 .projeto h3{
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.m-projetos2 .projeto p{
+  color: white;
+  text-align: justify;
+}
+
+section.m-projetos3{
+  padding: 40px 4%;
+}
+
+section.m-projetos3 .flex{
+  display: flex;
+  gap: 60px;
+}
+
+.m-projetos3 .img-projeto img{
+  max-width:250px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
+.m-projetos3 .projeto h3{
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.m-projetos3 .projeto p{
+  color: white;
+  text-align: justify;
+}
+
+footer{
+  padding: 40px 4%;
+}
+
+footer .flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .interface nav a{
+  text-decoration: none;
+}
+
+.contatos h2{
+  color: white;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.contatos h2 span{
+  display: block;
+}
+
+@media screen and (max-width: 1020px) {
+  .flex{
+    flex-direction: column;
+  }
+
+  .topo-site .flex{
+    flex-direction: column-reverse;
+  }
+
+}
